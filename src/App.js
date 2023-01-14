@@ -4,20 +4,16 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+   <h1 className="text-3xl font-bold underline">
+      Hello world!
+    </h1>
+
+    <div className="bg-green-300 border-green-600 border-b p-4 m-4 rounded">Green div with"bg-green-300 border-green-600 border-b p-4 m-4 rounded"
+    </div>
+    
+    <div className="bg-gray-500 hover:bg-red-600 ">div with hovering "bg-gray-500 hover:bg-red-600"</div>
+
+    
     </div>
   );
 }
